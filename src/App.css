@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(231, 233, 232);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.displayrow{
+  background-color: #61dafb;
+}
+
+.displayrow input{
+  height: 3rem;
+  width: 99%;
+  border-radius: 1%;
+  text-align: right;
+  font-size: xx-large;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.Calculator{
+  width: 35%;
+  height: 51%;
+  background-color: rgb(241, 208, 165);
+}
+.row{
+  display: flex;
+  justify-content:space-evenly;
+}
+.row button{
+  width: 100%;
+  height: 8vh;
+  background-color: rgb(174, 194, 187);
+}
+.rowlast{
+  display: flex;
+}
+.rowlast button{
+  width: 94%;
+  height: 10vh;
+  background-color: rgb(174, 194, 187);
+}
+.Equal{
+  width: 198% !important;
+}
+button{
+  color: rgb(0, 0, 0);
+  font-size: xx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  border: 0.1px solid whitesmoke;
+}
+.spcl{
+  background-color: rgb(216, 71, 100) !important;
+  color: whitesmoke;
+}
